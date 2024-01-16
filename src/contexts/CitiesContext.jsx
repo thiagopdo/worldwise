@@ -47,7 +47,8 @@ function CitiesProvider({ children }) {
         headers: { "Content-Type": "application/json" },
       });
       const data = await res.json();
-      console.log(data);
+
+      setCities((cities) => [...cities, data]);
     } catch {
       alert("Error loading data...");
     } finally {
@@ -56,7 +57,9 @@ function CitiesProvider({ children }) {
   }
 
   return (
-    <CitiesContext.Provider value={{ cities, isLoading, currentCity, getCity, createCity }}>
+    <CitiesContext.Provider
+      value={{ cities, isLoading, currentCity, getCity, createCity }}
+    >
       {children}
     </CitiesContext.Provider>
   );

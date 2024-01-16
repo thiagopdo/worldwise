@@ -47,6 +47,54 @@
         "lng": "-7.684487116506092"
       },
       "id": 98443198
+    },
+    {
+      "cityName": "Friesach",
+      "country": "Austria",
+      "emoji": "🇦🇹",
+      "date": "2024-01-10T04:56:00.000Z",
+      "notes": "ateste",
+      "position": {
+        "lat": "46.98025235521883",
+        "lng": "14.355320185725173"
+      },
+      "id": 98443199
+    },
+    {
+      "cityName": "Silvania",
+      "country": "Brazil",
+      "emoji": "🇧🇷",
+      "date": "2024-01-16T04:56:35.371Z",
+      "notes": "qweqwe",
+      "position": {
+        "lat": "-16.699340234594537",
+        "lng": "-48.87179299252029"
+      },
+      "id": 98443200
+    },
+    {
+      "cityName": "Goiania",
+      "country": "Brazil",
+      "emoji": "🇧🇷",
+      "date": "2024-01-16T04:59:10.118Z",
+      "notes": "qweqwe",
+      "position": {
+        "lat": "-16.93070509876553",
+        "lng": "-49.41000050511855"
+      },
+      "id": 98443201
+    },
+    {
+      "cityName": "Vianopolis",
+      "country": "Brazil",
+      "emoji": "🇧🇷",
+      "date": "2024-01-16T05:01:11.239Z",
+      "notes": "tesdwed",
+      "position": {
+        "lat": "-16.66776866124074",
+        "lng": "-48.39700199769429"
+      },
+      "id": 98443202
     }
   ]
 }
