@@ -18,7 +18,8 @@ export default function Homepage() {
           you have wandered the world.
         </h2>
 
-        <Link to="/app" className="cta">
+        {/* homepage is login */}
+        <Link to="/login" className="cta">
           Start Tracking Now
         </Link>
       </section>
