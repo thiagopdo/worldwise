@@ -13,18 +13,6 @@
       "id": 73930385
     },
     {
-      "cityName": "Berlin",
-      "country": "Germany",
-      "emoji": "🇩🇪",
-      "date": "2027-02-12T09:24:11.863Z",
-      "notes": "Amazing 😃",
-      "position": {
-        "lat": 52.53586782505711,
-        "lng": 13.376933665713324
-      },
-      "id": 98443197
-    },
-    {
       "cityName": "Thurles",
       "country": "Ireland",
       "emoji": "🇮🇪",
@@ -37,16 +25,16 @@
       "id": 98443198
     },
     {
-      "cityName": "Friesach",
-      "country": "Austria",
-      "emoji": "🇦🇹",
-      "date": "2024-01-10T04:56:00.000Z",
-      "notes": "ateste",
+      "cityName": "Golcza",
+      "country": "Poland",
+      "emoji": "🇵🇱",
+      "date": "2024-01-16T20:02:35.173Z",
+      "notes": "wdqwdqwdqwdqwdqwdqwdqw",
       "position": {
-        "lat": "46.98025235521883",
-        "lng": "14.355320185725173"
+        "lat": "50.28850749722016",
+        "lng": "19.959521187246466"
       },
-      "id": 98443199
+      "id": 98443200
     }
   ]
 }
