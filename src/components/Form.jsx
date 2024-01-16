@@ -32,6 +32,9 @@ function Form() {
 
   useEffect(
     function () {
+      //avoid http request if no lat or lng
+      if (!lat && !lng) return;
+
       async function fetchCityData() {
         try {
           setIsLoadingGeocoding(true);
