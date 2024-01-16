@@ -38,8 +38,10 @@ function CitiesProvider({ children }) {
     }
   }
 
+  //function to create city
   async function createCity(newCity) {
     try {
+      //post request to update the server state
       setIsLoading(true);
       const res = await fetch(`${BASE_URL}/cities`, {
         method: "POST",
@@ -48,6 +50,7 @@ function CitiesProvider({ children }) {
       });
       const data = await res.json();
 
+      //updates the UI state immediately to show on screen
       setCities((cities) => [...cities, data]);
     } catch {
       alert("Error loading data...");
